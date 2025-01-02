@@ -1,16 +1,30 @@
 # https://www.python.org/
 
-#comentario en una line
+#este es un comentario en
 
 """
-esto es tambien 
-es un comentario
+este es un comentarios
 en varias lineas
 """
 
+'''
+esto tambien son
+comentarios en varias lineas
+'''
+#variable 
+my_variable = "variable"
 
-my_variable = "mi variable"
-my_variable = "nuevo valor de mi variable"
+MY_CONSTANTE = "esto es una constante "
 
-MY_CONSTANT = "mi constante " #por covencion
+#tipos de datos 
 
+string: str = "Cadena de texto"
+integer: int = 21
+float: float = 12.23
+bool_true: bool = True
+bool_false: bool = False
+
+
+#procedo a imprimir
+
+print("!hola Python!")
